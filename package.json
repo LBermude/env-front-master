@@ -1,0 +1,27 @@
+{
+  "name": "env-front",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/theau.nicolas/env-front.git"
+  },
+  "author": "Théau NICOLAS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/theau.nicolas/env-front/issues"
+  },
+  "homepage": "https://gitlab.com/theau.nicolas/env-front#readme",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "type": "module"
+}
